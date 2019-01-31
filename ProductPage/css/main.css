@@ -85,7 +85,7 @@ body{
     height: 50vh;
     width: 100%;
     margin: auto;
-    background: url("/freeCodeCamp/Responsive-Web-Design-Projects/ProductPage/img/surfboard-41631.jpg") no-repeat center;
+    background: url("/freeCodeCamp/Responsive-Web-Design-Projects/ProductPage/img/beachsurf.jpg") no-repeat center;
     display: table;
     background-attachment: fixed;
     background-size: cover;
@@ -93,10 +93,41 @@ body{
 
 /* ///////////////////////////PRODUCTS////////////////////////////// */
 
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27363B;
+    height: 50vh;
+    width: 100%; 
+   
+}
 
+.products div ul li {
+    list-style-type: none;
+}
 
+.prdo {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(252, 238, 191);
+    width: 180px;
+    height: 200px;
+    text-align: center;
+    margin: 5px;
+}
 
+.prdo .titleprod {
+    background-color: rgb(190, 190, 190);
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 2px;  
+}
 
+.prdo .loremim {
+    margin-top: 15px;
+}
 
 
 
