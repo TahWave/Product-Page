@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bungee|Nanum+Gothic:400,700|Oswald:300,500,600,700');
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ///////////////////////GLOBAL CLASSES////////////////////////////////// */
+
+.fullsc {
+    height: 50vh;
+    width: 100%;
+    margin: auto;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/9/9d/Lords_of_the_Boards_%2819424407693%29.jpg") no-repeat center;
+    display: table;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    background-color: #27363B;
+    
+}
+
+.navbarNav ul li a {
+    color: #9ED4D9;
+}
+
+
+/* ///////////////////////BIGTEXT////////////////////////////////// */
+
+.textma {
+    text-align: center;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+
+
+.textma .textfi{
+    color: #EB4960;
+    font-size: 3em;
+    text-shadow: 2px 2px #27363B;
+    font-family: 'Bungee', cursive;
+}
+
+
+/* ///////////////////////////VIDEO////////////////////////////// */
+
+.secsec {
+    background-color: #27363B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+/* .secsec{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .secsec iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  } */
+
+
+
+
+
+/* ///////////////////////////PRODUCTS////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
