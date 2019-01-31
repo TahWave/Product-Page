@@ -78,8 +78,18 @@ body{
   } */
 
 
+/* ///////////////////////////SECONDIMG////////////////////////////// */
 
 
+.secimg {   
+    height: 50vh;
+    width: 100%;
+    margin: auto;
+    background: url("/freeCodeCamp/Responsive-Web-Design-Projects/ProductPage/img/surfboard-41631.jpg") no-repeat center;
+    display: table;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 /* ///////////////////////////PRODUCTS////////////////////////////// */
 
