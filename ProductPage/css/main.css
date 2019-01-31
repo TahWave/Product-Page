@@ -84,7 +84,7 @@ body{
 
 
 .secimg {   
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     margin: auto;
     background: url("/freeCodeCamp/Responsive-Web-Design-Projects/ProductPage/img/beachsurf.jpg") no-repeat center;
@@ -148,6 +148,21 @@ body{
 
 
 
+/* /////////////////////////FOOTER///////////////////////////// */
+.foots {
+    background-color: #27363B;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#footer {
+
+    color: #ffffff;
+}
+
+
 /* //////////////////////////MEDIAQUERIES///////////////////////////// */
 
 @media (max-width: 740px) {
@@ -169,10 +184,6 @@ body{
         font-family: 'Bungee', cursive;
     }
 }
-
-
-
-
 
 
 
