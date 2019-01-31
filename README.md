@@ -1,2 +1,2 @@
 # Responsive-Web-Design-Projects
-for freeCodeCamp
+Here you find the Responsive Web Design Projects for freeCodeCamp
