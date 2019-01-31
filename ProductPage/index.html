@@ -16,10 +16,10 @@
     <!-- Image and text -->
     <section class="fullsc">
         <header id="header">
-            <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+            <nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="nav-bar">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                    <img src="/freeCodeCamp/ProductPage/img/surflogo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <img src="/freeCodeCamp/ProductPage/img/surflogo.svg" id="header-img" width="30" height="30" class="d-inline-block align-top" alt="">
                     TahWave
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,11 +34,12 @@
                                 <a class="nav-link" href="#abbs">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#prodd">Products</a>
+                                    <a class="nav-link" href="#contt">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#prodd">Products</a>
                             </li>
+
                         </ul>
                     </div>
                 </div>
@@ -50,14 +51,20 @@
         </div>
     </section>
     
-    <section class="secsec">
+    <section class="secsec" id="vidd">
         <div class="vidoo">
             <iframe id="video" width="420" height="236.25" src="https://www.youtube.com/embed/JZ4KOYVUH_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
         </div>
      </section>
 
-     <section class="secimg">
-         <div class="secimgs"></div>
+     <section class="secimg" id="contt">
+         <div class="secimgs">
+            
+             <form action="" id="form">
+                <input type="email" id="email" name="email" placeholder="Enter your e-mail" required>
+                <input type="submit" id="submit" value="Get Started">
+             </form>
+         </div>
      </section>
 
      <section class="products" id="prodd">
