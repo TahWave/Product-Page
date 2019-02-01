@@ -87,7 +87,7 @@ body{
     height: 70vh;
     width: 100%;
     margin: auto;
-    background: url("/freeCodeCamp/Responsive-Web-Design-Projects/ProductPage/img/beachsurf.jpg") no-repeat center;
+    background: url("/freeCodeCamp/ProductPage/img/beachsurf.jpg") no-repeat center;
     display: flex;
     justify-content: center;
     align-items: center;
